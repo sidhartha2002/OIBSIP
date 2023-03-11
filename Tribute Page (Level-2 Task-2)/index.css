@@ -1,0 +1,117 @@
+body {
+  padding: 20px;
+  box-sizing: border-box;
+  /* background-color: #320e95; */
+  background-image: linear-gradient(to right, #391699, #230577);
+  /* overflow: hidden; */
+}
+.container {
+  /* background-color: black; */
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.header {
+  color: white;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.head {
+  font-size: 5rem;
+  text-shadow: 2px 2px;
+}
+span {
+  color: white;
+  font-size: 2rem;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero {
+  height: 50vh;
+  width: 60vw;
+  background-color: black;
+  float: left;
+  display: flex;
+  border-radius: 50px 0px;
+  border-style: dotted;
+  border-color: white;
+}
+.gandhi {
+  height: 50vh;
+  width: 40vw;
+  position: relative;
+  box-shadow: 10px 10px 5px red;
+  border-top-left-radius: 50px 50px;
+}
+
+section {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.icon {
+  display: flex;
+  /* box-shadow: 2px 2px white; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: 220px;
+  height: 100px;
+  width: 200px;
+}
+
+.quote {
+  color: wheat;
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-left: 4rem;
+  /* flex-direction: row; */
+}
+
+.bio {
+  color: yellow;
+  margin-top: 15rem;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.about {
+  color: rgb(244, 238, 238);
+  /* background-color: black; */
+  font-size: 20px;
+  height: 50vh;
+  width: 80vw;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.name {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  /* font-weight: 200; */
+  font-family: "Courier New", Courier, monospace;
+}
+
+hr {
+  width: 10rem;
+  margin-top: 5px;
+  height: 2px;
+  border-bottom: 5px solid yellow;
+  color: red;
+}
+
+.ref {
+  color: rgb(126, 124, 124);
+  text-align: center;
+  font-size: 15px;
+}
